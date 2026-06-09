@@ -24,17 +24,17 @@ export default function About() {
             I thrive at the intersection of engineering and innovation.
           </p>
           <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed mb-8">
-            With 4+ years of experience across backend, frontend, DevOps, and machine
+            With 4+ years of experience across backend, frontend, Mobile App, DevOps, and machine
             learning, I deliver robust, scalable, and maintainable software that drives
             business value.
           </p>
 
           <div className="grid grid-cols-2 gap-4 mb-8">
             {[
-              { label: "Projects Shipped", value: "30+" },
-              { label: "Years Experience", value: "5+" },
-              { label: "Cloud Certifications", value: "3" },
-              { label: "Open Source Contributions", value: "15+" },
+              { label: "Projects Shipped", value: "2+" },
+              { label: "Years Experience", value: "4+" },
+              { label: "Cloud Certifications", value: "1" },
+              { label: "Open Source Contributions", value: "3+" },
             ].map((s) => (
               <div key={s.label} className="bg-zinc-50 dark:bg-zinc-800 rounded-xl p-4">
                 <div className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">{s.value}</div>
