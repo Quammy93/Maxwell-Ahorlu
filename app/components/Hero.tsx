@@ -22,11 +22,21 @@ export default function Hero() {
           infrastructure that solve real-world problems.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#projects"
-            className="px-8 py-3 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold transition-colors shadow-lg shadow-indigo-200 dark:shadow-indigo-900/30"
+           <a
+            href="/Maxwell Ahorlu.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold transition-colors shadow-lg"
           >
-            View Projects
+            View CV
+          </a>
+
+          <a
+            href="/Maxwell Ahorlu.pdf"
+            download
+            className="px-8 py-3 rounded-full border-2 border-indigo-600 text-indigo-600 dark:text-indigo-400 dark:border-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 font-semibold transition-colors"
+          >
+            Download CV
           </a>
           <a
             href="#contact"
