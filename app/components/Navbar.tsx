@@ -37,6 +37,12 @@ export default function Navbar({ dark, toggleDark }: { dark: boolean; toggleDark
               {l}
             </a>
           ))}
+          <a
+            href="/blog"
+            className="text-sm font-medium text-zinc-600 dark:text-zinc-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+          >
+            Blog
+          </a>
           <button
             onClick={toggleDark}
             className="ml-2 p-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
@@ -70,6 +76,13 @@ export default function Navbar({ dark, toggleDark }: { dark: boolean; toggleDark
               {l}
             </a>
           ))}
+          <a
+            href="/blog"
+            onClick={() => setMenuOpen(false)}
+            className="text-sm font-medium text-zinc-600 dark:text-zinc-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+          >
+            Blog
+          </a>
         </div>
       )}
     </nav>

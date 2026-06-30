@@ -6,6 +6,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import SoftSkills from "./components/SoftSkills";
+import BlogPreview from "./components/BlogPreview";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -37,6 +38,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <SoftSkills />
+      <BlogPreview />
       <Contact />
       <Footer />
     </div>

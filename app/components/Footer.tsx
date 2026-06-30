@@ -1,4 +1,4 @@
-const navLinks = ["About", "Projects", "Skills", "Contact"];
+const navLinks = ["About", "Projects", "Skills", "Blog", "Contact"];
 const socials = [
   { label: "GitHub", href: "#", icon: "🐙" },
   { label: "LinkedIn", href: "#", icon: "💼" },
@@ -27,7 +27,7 @@ export default function Footer() {
               {navLinks.map((l) => (
                 <li key={l}>
                   <a
-                    href={`#${l.toLowerCase()}`}
+                    href={l === "Blog" ? "/blog" : `#${l.toLowerCase()}`}
                     className="text-sm hover:text-indigo-400 transition-colors"
                   >
                     {l}
